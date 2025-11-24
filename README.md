@@ -91,7 +91,6 @@
     <button class="btn" onclick="mostrarPregunta()">Ver propuesta 💌</button>
 </div>
 
-<!-- SEGUNDA PANTALLA -->
 <div id="pregunta" style="display:none;">
     <h1>¿Quieres regresar conmigo? 🥺💗</h1>
 
@@ -144,8 +143,6 @@
 
         no.style.transform = `translate(${x}px, ${y}px)`;
     }
-
-    /* FUNCIÓN FINAL BONITA */
     function aceptar(){
         document.body.innerHTML = `
             <div style="
@@ -180,8 +177,6 @@
 
         iniciarCorazones();
     }
-
-    /* CORAZONES + ESTRELLITAS */
     function iniciarCorazones(){
         setInterval(() => {
             let elemento = document.createElement("div");
